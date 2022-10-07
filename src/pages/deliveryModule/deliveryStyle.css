@@ -1,0 +1,130 @@
+.css-ahj2mt-MuiTypography-root{
+    font-size: 13px!important;
+}
+
+.ant-spin-blur {
+    opacity: 0.9 !important;
+}
+
+.ant-spin-nested-loading > div > .ant-spin {
+    top: 18% !important;
+}
+
+.allDay .iconMain {
+    display: none;
+}
+
+.iconMain {
+    position: absolute;
+    right: 1px;
+    top: 3px;
+    display: flex;
+    background-color: white;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.allDay {
+    color: black;
+    background-color: rgba(209, 209, 209, 0.76);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: 12px !important;
+    text-align: center;
+    height: 100%;
+}
+
+.UnAck {
+    background-color: #6993FF;
+    padding: 5px 2px;
+    /*padding: 5px;*/
+    border-radius: 5px;
+    display: flex !important;
+    flex-direction: column !important;
+    font-size: xx-small;
+    height: 100%;
+    width: 115%;
+}
+
+.Ack {
+    background-color: #EBEDF3;
+    padding: 5px 2px;
+    border-radius: 5px;
+    color: black;
+    display: flex !important;
+    flex-direction: column !important;
+    font-size: xx-small;
+    height: 100%;
+    width: 115%;
+}
+
+.Started {
+    background-color: #1BC5BD;
+    padding: 5px 2px;
+    border-radius: 5px;
+    display: flex !important;
+    flex-direction: column !important;
+    font-size: xx-small;
+    height: 100%;
+    width: 115%;
+}
+
+.Arrived {
+    background-color: #FFF4DE;
+    /*padding: 5px 5px;*/
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+    display: flex !important;
+    flex-direction: column !important;
+    font-size: xx-small !important;
+    height: 100%;
+    width: 115%;
+}
+
+.Rej {
+    background-color: #F64E60;
+    /*padding: 5px 5px;*/
+    padding: 5px;
+    border-radius: 5px;
+    display: flex !important;
+    flex-direction: column !important;
+    font-size: xx-small !important;
+    height: 100%;
+    width: 115%;
+}
+
+.Delivered {
+    background-color: #00008B;
+    /*padding: 5px 5px;*/
+    padding: 5px;
+    border-radius: 5px;
+    display: flex !important;
+    flex-direction: column !important;
+    font-size: xx-small !important;
+    height: 100%;
+    width: 115%;
+}
+
+.dx-scheduler-appointment {
+    background-color: #FFFFFF00;
+}
+
+.dx-scheduler-appointment-content {
+
+}
+
+.orderText {
+    height: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+/*TODO: Tool Tip Left Circle */
+.dx-tooltip-appointment-item-marker {
+    display: none;
+}

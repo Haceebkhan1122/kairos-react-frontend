@@ -1,0 +1,221 @@
+.dx-checkbox-container {
+    overflow: hidden;
+    white-space: nowrap;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    display: inline-flex;
+    align-items: center;
+    text-overflow: clip;
+    padding: 10px;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #8B00BC !important;
+    border-color: #8B00BC !important;
+}
+
+.ant-checkbox-inner {
+    border-color: #8B00BC;
+}
+
+.ant-checkbox-checked::after {
+    border-color: #8B00BC;
+}
+
+.ant-checkbox-wrapper:hover .ant-checkbox-inner, .ant-checkbox:hover .ant-checkbox-inner, .ant-checkbox-input:focus + .ant-checkbox-inner {
+    border-color: #8B00BC;
+}
+
+.dx-calendar-navigator .dx-button {
+    color: #8B00BC !important;
+    box-shadow: none;
+}
+
+.dx-calendar-cell.dx-calendar-selected-date span, .dx-calendar-cell.dx-calendar-selected-date.dx-calendar-today span {
+    color: #fff;
+    /*background-color: #8B00BC;*/
+}
+
+.dx-scheduler-all-day-table-cell.dx-scheduler-focused-cell,
+.dx-scheduler-date-table-cell.dx-scheduler-focused-cell {
+    /*-webkit-box-shadow: inset 0 0 0 1px #8B00BC !important;*/
+    /*box-shadow: inset 0 0 0 1px #8B00BC !important;*/
+    background-color: rgba(241, 240, 240, 0.74) !important;
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner, .ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner, .ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-cell-inner {
+    color: #fff;
+    background: #8B00BC;
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner::before {
+    border: 1px solid #8B00BC;
+}
+
+.datePickerClass {
+    border: 1px solid #D9D9D9;
+}
+
+.ant-picker-focused {
+    border-color: #8B00BC !important;
+    box-shadow: 0 0 0 2px rgb(24 144 255 / 20%);
+}
+
+.ant-picker:hover, .ant-picker-focused {
+    border-color: #8B00BC !important;
+}
+
+.ant-input-affix-wrapper:focus, .ant-input-affix-wrapper:hover, .ant-input-affix-wrapper-focused {
+    border-color: #8B00BC !important;
+}
+
+.ant-btn:hover, .ant-btn:focus {
+    color: #8B00BC;
+    border-color: #8B00BC;
+    background: #fff;
+}
+
+/*Resource Component start*/
+.dx-scheduler-timeline .dx-scheduler-group-header {
+    /*TODO:Resource height*/
+    min-height: 50px !important;
+}
+/*Resource Component END*/
+.dx-scheduler-group-table{
+    height: 100% !important;
+}
+.ant-btn-primary:active,
+.ant-btn-primary:hover {
+    border-color: #8B00BC !important;
+}
+
+.ant-btn-primary {
+    color: #8C8C8C !important;
+    background: white !important;
+    border-color: #D9D9D9 !important;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
+
+.myDateInput {
+    border-radius: 6px !important;
+    height: 22px;
+    width: 130px;
+}
+
+input {
+    background-color: transparent;
+    color: black !important;
+}
+
+/*HEADER DATE TEXT*/
+.dx-scheduler-header-panel-cell .dx-scheduler-header-panel-cell-date:last-child {
+    font-size: 13px !important;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+/*HEADER DATE TEXT END*/
+
+/*TOOL TIP DATE START*/
+.dx-scheduler-appointment-tooltip-wrapper .dx-overlay-content .dx-list .dx-list-item .dx-tooltip-appointment-item .dx-tooltip-appointment-item-content .dx-tooltip-appointment-item-content-date, .dx-scheduler-overlay-panel .dx-overlay-content .dx-list .dx-list-item .dx-tooltip-appointment-item .dx-tooltip-appointment-item-content .dx-tooltip-appointment-item-content-date {
+    display: none !important;
+}
+/*TOOL TIP DATE END*/
+
+/*TOOL TIP DELETE START*/
+.dx-popup-wrapper.dx-scheduler-appointment-tooltip-wrapper .dx-tooltip-appointment-item .dx-tooltip-appointment-item-delete-button .dx-icon, .dx-scheduler-overlay-panel .dx-tooltip-appointment-item .dx-tooltip-appointment-item-delete-button .dx-icon {
+    display: none !important;
+}
+/*TOOL TIP DELETE END*/
+
+/*TOOL TIP TEXT START*/
+.dx-scheduler-appointment-tooltip-wrapper .dx-overlay-content .dx-list .dx-list-item .dx-tooltip-appointment-item .dx-tooltip-appointment-item-content .dx-tooltip-appointment-item-content-subject, .dx-scheduler-overlay-panel .dx-overlay-content .dx-list .dx-list-item .dx-tooltip-appointment-item .dx-tooltip-appointment-item-content .dx-tooltip-appointment-item-content-subject {
+    margin-top: 4px;
+    font-size: 13px !important;
+}
+/*TOOL TIP TEXT END*/
+
+/*LEFT RESOURCE*/
+.dx-scheduler-timeline .dx-scheduler-group-table .dx-scheduler-group-row .dx-scheduler-group-header .dx-scheduler-group-header-content, .dx-scheduler-timeline .dx-scheduler-header-panel .dx-scheduler-group-row .dx-scheduler-group-header .dx-scheduler-group-header-content {
+    padding-left: 0;
+    font-size: 13px !important;
+}
+/*LEFT RESOURCE END*/
+
+/*Header and Row Month*/
+.dx-scheduler-work-space.dx-scheduler-timeline-month:not(.dx-scheduler-agenda) .dx-scheduler-date-table-cell {
+    border-right: none;
+    width: 50px;
+    height: 100%;
+    //!important;
+    /*height: 100px !important;*/
+}
+
+.timeline-day .dx-scheduler-header-panel-cell, .dx-scheduler-work-space.dx-scheduler-timeline.dx-scheduler-timeline-month .dx-scheduler-header-panel-cell, .dx-scheduler-work-space.dx-scheduler-timeline.dx-scheduler-timeline-week .dx-scheduler-header-panel-cell, .dx-scheduler-work-space.dx-scheduler-timeline.dx-scheduler-timeline-work-week .dx-scheduler-header-panel-cell {
+    align-items: center;
+    justify-content: center;
+    /*TODO:Header Date*/
+    flex-direction: column;
+    width: 50px !important;
+}
+
+/*Header and Row Month END*/
+/*Header and Row WEEK START*/
+.dx-scheduler-work-space.dx-scheduler-timeline-week:not(.dx-scheduler-agenda) .dx-scheduler-date-table-cell {
+    border-right: none;
+    width: 40px;
+    //height: 55px;
+    height: 100%;
+    //!important;
+}
+
+.timeline-day .dx-scheduler-header-panel-cell, .dx-scheduler-header-panel-cell, .dx-scheduler-work-space.dx-scheduler-timeline.dx-scheduler-timeline-week .dx-scheduler-header-panel-cell, .dx-scheduler-work-space.dx-scheduler-timeline.dx-scheduler-timeline-work-week .dx-scheduler-header-panel-cell {
+    align-items: center;
+    justify-content: flex-end;
+    //width: 100px;
+    //!important;
+}
+
+/*Header and Row WEEK END*/
+.dx-scheduler-header-panel-cell.dx-scheduler-cell-sizes-horizontal {
+    //display: none;
+}
+
+.dx-scheduler-work-space.dx-scheduler-timeline-work-week.dx-scheduler-work-space-grouped .dx-scheduler-sidebar-scrollable, .dx-scheduler-work-space.dx-scheduler-timeline-work-week .dx-scrollable.dx-scheduler-date-table-scrollable {
+    //padding-bottom: 50px;
+    //margin-bottom: -50px;
+}
+
+//.dx-scheduler-work-space.dx-scheduler-timeline-work-week .dx-scheduler-header-scrollable {
+//    height: 50px;
+//}
+
+/*WEEK TIME HEADER START*/
+.dx-scheduler-work-space.dx-scheduler-timeline.dx-scheduler-timeline-week .dx-scheduler-header-panel-cell:not(.dx-scheduler-header-panel-week-cell), .dx-scheduler-work-space.dx-scheduler-timeline.dx-scheduler-timeline-work-week .dx-scheduler-header-panel-cell:not(.dx-scheduler-header-panel-week-cell) {
+    display: none !important;
+    //width: 1px !important;
+}
+
+/*WEEK TIME HEADER END*/
+
+/* Week CSS*/
+.dx-scheduler-timeline-week .dx-scheduler-header-row {
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    /*width: 1400px !important;*/
+}
+/*END WeekK CSS*/
+
+.allTimeLineView{
+    .dx-scheduler-timeline.dx-scheduler-work-space-both-scrollbar .dx-scheduler-date-table .dx-scheduler-date-table-row:first-child .dx-scheduler-date-table-cell {
+        border-top-color: transparent;
+    }
+}
+//.weeklyTimeLineView{
+//    .dx-scheduler-timeline.dx-scheduler-work-space-both-scrollbar .dx-scheduler-date-table .dx-scheduler-date-table-row:first-child .dx-scheduler-date-table-cell {
+//        border-top-color: transparent;
+//        display: none;
+//    }
+//}

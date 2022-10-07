@@ -1,0 +1,49 @@
+@import '../../scss/main.scss';
+.forHomeWidth{
+    width:90%;
+}
+.timeDiv{
+    // padding:30px 15px;
+}
+.timeCard{
+    background-color:white;
+    text-align:center;
+    width:100%;
+    height:100%;
+    display:block;
+    text-decoration: none;
+    border-radius:7px;
+    border: 1px solid #EBEDF3 !important;
+}
+.timeCardText{
+    font-size:$font-size-small;
+    font-weight: 600;
+    
+}
+.timeCard:hover,
+.timeCard:hover,
+.timeCard:focus{
+    background-color:#e0e3e9;
+    transition-delay: 20ms;
+    transition-property: background-color;
+}
+.PmText{
+    color: #12827c;
+    font-size: $font-size-small;
+}
+.PmPara{
+    font-size:$font-size-small;
+    font-weight:500;
+    color: #3F4254;
+}
+
+@media (max-width:1199px) and (min-width:992px){
+    .forHomeWidth{
+        width:80%;
+    }
+}
+@media (max-width:991px) and (min-width:768px){
+    .forHomeWidth{
+        width:95%;
+    }
+}

@@ -1,0 +1,39 @@
+.summaryBtn{
+    color: #FFFFFF;
+    background-color: #00008b;
+    border-color: #00008b;
+    border-radius: 5px;
+
+}
+.summaryBtnTxt{
+    font-size: 12px;
+    line-height: 1.35;
+    color: #FFFFFF;
+}
+.excelBtn{
+    color: white !important;
+    background-color: #0000d8 !important;
+    border:0;
+    padding: 3px 13px;
+    font-size: 13px;
+    line-height: 1.5;
+    border-radius: 5px;
+}
+.summaryModalMain{
+    width:336px;
+    margin:20px;
+    margin:auto;    
+}
+.summaryModalTxt{
+    font-weight: 500;
+    font-size: 16px;
+    margin: 2rem 0 0 0;
+    color: #181C32;
+}
+.ant-modal-footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:0;
+    padding-bottom:30px;
+}

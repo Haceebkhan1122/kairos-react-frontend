@@ -1,0 +1,94 @@
+.myFormModalMain{
+  display: flex;
+  flex-direction: column;
+  .fieldsMain{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+  }
+  .fieldMain{
+    display: flex;
+    justify-content: flex-start;
+    width:48%;
+    margin:10px 0;
+
+  }
+  .fieldTxt{
+      width:155px;
+  }
+  .fieldInput{
+
+  }
+  .fldtxt{
+    font-size:13px;
+  }
+  .fldinput{
+    border:1px solid #E0E0E0;
+    padding:3px 8px;
+    border-radius:4px;
+    width:190px;
+  }
+  .fldinput:focus{
+    border: 1px solid #00446A;
+  }
+  .fledCheck{
+    width:20px;
+    height:20px;
+  }
+  .saveTabBtn{
+    //width:100%;
+    //height:35px;
+    display: block;
+    text-align: center;
+    background-color:#00446A;
+    color:white;
+    border:none;
+    border-radius:4px;
+    font-size:13px;
+    font-weight:bold;
+    cursor:pointer;
+    margin-right:15px;
+    padding:5px;
+  }
+  .cancelTabBtn{
+    width:70px;
+    height:35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#00446A;
+    color:white;
+    border:none;
+    border-radius:4px;
+    font-size:13px;
+    font-weight:bold;
+    cursor:pointer;
+  }
+  select{
+    outline:none;
+  }
+  .react-datepicker__input-container input {
+    border-width:1px;
+    width: 106%;
+    height: 27px;
+  }
+  .react-datepicker__input-container input:focus {
+    border-color:#00446A!important;
+  }
+  .ant-select{
+    width:190px!important;
+    border-radius: 4px !important;
+    height: 30px !important;
+  }
+  .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border-radius: 4px !important;
+    height: 30px !important;
+  }
+  .ant-select:not(.ant-select-customize-input) .ant-select-selector input {
+    color: black !important;
+    font-size: 0.875rem !important;
+    background-color: white !important;
+    height: 28px !important;
+    opacity: 1 !important;
+  }
+}

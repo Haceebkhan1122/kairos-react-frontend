@@ -1,0 +1,361 @@
+@import '../../scss/main.scss';
+.timeEntryMain{
+    background-color: #ECEEF7;
+    // background-color:black;
+    font-family: Poppins, Helvetica, "sans-serif";
+    text-shadow:none;
+}
+
+.timeEntrySection{
+    background-color:#ffffff;
+    border-radius:7px;
+}
+.headingText{
+    font-size:$font-size-heading;
+    font-weight: 500;
+    color: #181C32;
+}
+.timeEntryInputs{
+    color:#3F4254 !important;
+    font-size:$font-size-min1 !important;
+    font-weight:400 !important;
+    border:1px solid black !important;
+    // border-radius:5px !important;  
+}
+.timeEntryInputsActive{
+    border-radius:5px 5px 0 0 !important;
+    outline:none !important;
+    color:#3F4254 !important;
+    font-size:$font-size-min1 !important;
+    font-weight:400 !important;
+    border:1px solid red !important;
+    // border-radius:5px 5px 0 0 !important;
+}
+.forInputSettings{
+    .ant-select-selector{
+        height:25px!important;
+        align-items:center;
+        vertical-align: top;
+        padding-top:1px;
+    } 
+    .ant-select-selection-search-input{
+        background-color:transparent!important;
+        height:20px !important;
+        margin-top:1px;
+    }
+    .ant-select-selection-search-input:focus{
+        // background-color:white!important;
+        height:20px !important;
+        margin-top:1px;
+        border:1px solid black !important;
+        color: black !important;;
+    }
+    .dropDownInput{
+
+    }
+}
+.inputRounded{
+    border-radius:6px !important;
+    height:22px;
+    width: 130px;
+}
+.timeEntryClass{
+    // padding:0!important;
+    // .ant-picker:hover,
+    // .ant-picker-focused{
+    //     box-shadow:none !important;
+    // }
+
+    // .ant-picker.ant-picker-borderless {
+    //     border-color: black !important;
+    //     // border-width:1px!important;
+    //     // border-style:solid !important;
+    //     box-shadow:none !important;
+    // }
+
+    input {
+        background-color: red !important;
+        opacity: 1;
+        color: #3F4254 !important;
+    }
+
+    // .ant-picker.ant-picker-borderless {
+    //     padding:0 !important;
+    //     background-color: transparent !important;
+    //     border-color: black !important;
+    //     border-top-color: black !important;
+    //     border-right-color: black !important;
+    //     border-bottom-color: black !important;
+    //     border-left-color: black !important;
+    //     box-shadow: none !important;
+    // }
+}
+.timeEntryBtn{
+    background-color:$dropFontColor;
+    color:$whiteColor;
+    font-size:$font-size-small;
+    text-decoration: none;
+    font-size:13px;
+    padding:3px;
+    margin:3px 5px;
+    border-radius:7px;
+    border:1px solid $dropFontColor;
+}
+.timeEntryBtn:hover,
+.timeEntryBtn:active,
+.timeEntryBtn:focus{
+    transition-delay: 10ms;
+    transition-property: background-color;
+    background-color:#0b0beb;
+    color:$whiteColor;
+    border-color:#0b0beb;
+}
+.statusTxt{
+    color:#3F4254;
+    font-size:$font-size-min1;
+    font-weight:400;
+}
+.statusBtn{
+    cursor:text !important;
+    font-size:$font-size-min;
+    font-weight:400;
+    border-radius:7px;
+    height:24px;
+    border:none;
+    padding:5px 7px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-right:2px;
+}
+.iconLinks{
+    background-color: #ecf1f5;
+    padding:0 2px;
+    border-radius:4px;
+    height:20px;
+}
+.iconLinks:hover,
+.iconLinks:active,
+.iconLinks:focus{
+    background-color: #d5dde3;
+    transition-delay: 10ms;
+    transition-property: background-color;
+}
+.weeklyTableSection{
+    thead > tr > th {
+        padding:0;
+        background-color: #C1C1C1;
+        color: #000000 !important;
+        font-size: 10px;
+        font-weight:600;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        border:0;
+        height:18px;
+        text-align:center;
+    }
+}
+.timeEntryTableSection{
+    thead > tr > th {
+        padding:0;
+        background-color: #C1C1C1;
+        color: #000000 !important;
+        font-size: 10px;
+        font-weight:600;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        border:0;
+        height:18px;
+        text-align:center;
+    }
+}
+.weeklyTblInput{
+    background:white !important;
+    color:black !important;
+    border: 1px solid #C1C1C1;
+    border-radius:5px;
+    height:19px;
+    font-size:$font-size-min;
+    padding: 3px 5px;
+    width:120px;
+}
+.weeklyTblInput:hover,
+.weeklyTblInput:active,
+.weeklyTblInput:focus{
+    border: 1px solid #C1C1C1
+}
+.weeklyTblCells{
+    font-size:$font-size-min1;
+    // padding:0;
+    color:#3F4254;
+}
+.weeklyTbl{
+    thead > tr > th {
+        padding:0;
+        background-color: #C1C1C1 !important;
+        color: #000000 !important;
+        font-size: 10px;
+        font-weight:600;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        border:0;
+        height:18px;
+        text-align:center;
+    }
+}
+@media (max-width:1322px) and (min-width:992px){
+    .responsiveStatusBtn{
+        margin-top:3px;
+    }
+}
+.timeEntryExpandTxt{
+    font-size:13px;
+    font-weight:600;
+    color:#3F4254;
+}
+.timeEntryExpandTxtSec{
+    font-size:13px;
+    font-weight:400;
+    color:#3F4254;
+}
+.timeEntryEditBtns{
+    .ant-btn{
+        height: 18px!important;
+        padding: 2px 4px 2px 12px!important;
+        width: 100px, im !important;
+        font-size: 12px!important;
+        line-height: 1.35!important;
+        border-radius: 5px!important;
+
+
+    border: 1px solid transparent;
+    // box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+    cursor: pointer;
+    height: 20px!important;
+    color: rgba(0, 0, 0, 0.85);
+    border-color: #d9d9d9;
+    background: #F3F6F9;
+    width:160px;
+    }
+    .ant-btn:active,
+    .ant-btn:hover,
+    .ant-btn:focus{
+        color: rgba(0, 0, 0, 0.85);
+        border-color: #d9d9d9;
+        background: #F3F6F9;
+        background-image: initial;
+        background-color: #F3F6F9;
+        box-shadow: 0 0 0 transparent!important;}
+    }
+.myDatePicker{
+    input{
+        width: 140px !important;
+        height: 30px !important;
+    }
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border-radius: 7px !important;
+    height: 20px !important;
+    input{
+        color: black !important;
+        font-size:$font-size-small !important;
+        background-color: white !important;
+        height: 10px !important;
+        opacity: 0 !important;
+    }
+}
+.timeEntryTable{
+
+    .ant-table-tbody > tr > td {
+        height: 2px;
+        //padding: 4px;
+    }
+
+    .ant-table-tbody > tr > td {
+        border-bottom: 1px solid #f0f0f0;
+        // transition: background 0.3s;
+    }
+    .ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td {
+        position: relative;
+        padding: 1px 10px;
+        overflow-wrap: break-word;
+    }
+    .ant-table {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        color: rgba(0, 0, 0, 0.85);
+        font-variant: tabular-nums;
+        line-height: 1.5715;
+        list-style: none;
+        font-feature-settings: 'tnum', "tnum";
+        position: relative;
+        font-size: $font-size-min1;
+        background: #fff;
+        border-radius: 2px;
+    }
+}
+.forDatePicker{
+    input{
+        width:75px!important;
+        height:30px!important;
+        font-size:12px!important;
+        background-color: white!important;
+        color:black!important;
+        font-weight: 400!important;
+    }
+    .react-datepicker__input-container input {
+        display: block !important;
+        border: 2px solid #cccccc !important;
+        border-radius: 5px !important;
+        padding: 0px 0px !important;
+    }
+}
+.forCheckbox{
+    input{
+        width:15px!important;
+        height:15px!important;
+        font-size:12px!important;
+        background-color: white!important;
+        color:black!important;
+        font-weight: 400!important;
+    }
+    .ant-form-item{
+        margin:0
+    }
+    .react-datepicker__input-container input {
+        display: block !important;
+        border: 2px solid #cccccc !important;
+        border-radius: 5px !important;
+        padding: 0px 0px !important;
+    }
+}
+.myDangerColor{
+    background-color: #F64E60;
+}
+.mySuccessColor{
+    background-color: #C9F7F5;
+}
+.myWarningLightColor{
+    background-color: #FFF4DE;
+}
+.myWarningColor{
+    background-color: #FFA800;
+}
+.myInfoColor{
+    background-color: #00A2FF;
+}
+.qtyInput{
+    
+        height: 20px;
+        padding: 2px 12px;
+        width:160px;
+        font-size: 12px;
+        line-height: 1.35;
+        border-radius: 4px;
+        background-color:#F3F6F9!important;
+        border: 1px solid #d9d9d9;
+        color:black!important;
+        font-weight: 400;
+    
+}

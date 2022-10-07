@@ -1,0 +1,25 @@
+.addAllBtn{
+    color: #ffffff;
+    background-color: #1BC5BD;
+    border:0;
+    font-size: 12px;
+    line-height: 1.35;
+    border-radius: 5px;
+    padding:13px;
+}
+.addAllBtn:hover{
+    background-color:#0bb7af;
+}
+.bulkUserAddTbl{
+    thead > tr > th {
+        background-color: #c1c1c1;
+        border-bottom: 2px solid #EBEDF3;
+        color: #3F4254;
+        font-size: 13px !important;
+        font-weight: 600;
+        font-family: Poppins, Helvetica, "sans-serif";
+    }
+    .ant-table-cell{
+        padding:9px;
+    }
+}

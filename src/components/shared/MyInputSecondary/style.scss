@@ -1,0 +1,18 @@
+@import "../../../scss/main.scss";
+.formGroupClasses{
+    input:-internal-autofill-selected{
+        background-color: #ffffff !important;
+        opacity:0.6;
+    }
+    input{
+        background-color: #ffffff !important;
+        opacity:0.6;
+        color: #3F4254 !important;
+    }
+    .form-control.is-invalid:focus, .was-validated .form-control:invalid:focus {
+        box-shadow: none !important;
+    }
+    .form-control.is-valid, .was-validated .form-control:valid {
+        box-shadow: none !important;
+    }
+}

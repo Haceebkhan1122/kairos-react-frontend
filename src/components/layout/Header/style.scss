@@ -1,0 +1,154 @@
+@import '../../../scss/main.scss';
+
+.headerUpper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.LogoContainer {
+    width: 136px;
+    height: 35px;
+}
+
+.headerUpperBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    padding: 12px 12px;
+    border: 1px solid transparent !important;
+    border-radius: 5px;
+    font-size: $font-size-small;
+    font-weight: normal;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.headerUpperBtn:active,
+.headerUpperBtn:focus,
+.headerUpperBtn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+.headerUpperTxt {
+    color: #F64E60;
+    font-size: $font-size-small;
+    font-weight: 400;
+    font-family: Poppins, Helvetica, "sans-serif";
+    text-decoration: none;
+}
+
+.headerUpperTxt:hover,
+.headerUpperTxt:focus,
+.headerUpperTxt:active {
+    color: #e22033;
+}
+
+.dropDownListTxt {
+    font-weight: 500;
+    font-size: $font-size-small;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.dropDownListTxt:hover,
+.dropDownListTxt:active,
+.dropDownListTxt:focus {
+    color: $dropFontColor;
+    background-color: $dropHoverColor;
+}
+
+.headerLower {
+    position: relative;
+    top: 15px;
+}
+
+.headerLowerBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    padding: 16px 8px;
+    border: 1px solid transparent !important;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #51516e;
+    color: #e5eaee;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    text-transform: uppercase;
+    font-family: Poppins, Helvetica, "sans-serif";
+}
+
+.headerLowerBtn:active,
+.headerLowerBtn:focus,
+.headerLowerBtn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+.headerLowerDropDown {
+    width: 260px;
+}
+
+.LowerdropDownListTxt {
+    font-weight: 400;
+    font-size: $font-size-small;
+    padding: 5px 0 5px 5px;
+    font-family: Poppins, Helvetica, "sans-serif";
+}
+
+.LowerdropDownListTxt:hover,
+.LowerdropDownListTxt:active,
+.LowerdropDownListTxt:focus {
+    color: $dropFontColor;
+    background-color: $dropHoverColor;
+}
+
+@media(max-width:767px) and (min-width:576px) {
+    .headerUpper {
+        width: 98%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .headerLowerBtn {
+        padding: 12px 2px;
+        margin-right: 4px;
+    }
+}
+
+@media(max-width:575px) {
+    .headerUpper {
+        width: 99%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .headerUpperBtn {
+        padding: 12px 7px;
+        font-size: $font-size-min;
+        margin-right: 7px;
+    }
+
+    .headerUpperTxt {
+        font-size: $font-size-min;
+    }
+
+    .headerLowerBtn {
+        padding: 12px 2px;
+        font-size: $font-size-min;
+        margin-right: 4px;
+    }
+}
